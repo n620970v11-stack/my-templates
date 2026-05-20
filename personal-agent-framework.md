@@ -77,12 +77,6 @@ my-portfolio/
 ### On Startup: State Check / 啟動時：狀態檢查
 
 ```
-[Sync Check / 同步檢查]
-- Ask user to run: git pull / 請使用者執行 git pull
-- Confirm local repo is up to date / 確認本機為最新狀態
-- Important: user works across 2 computers, always pull before starting
-  注意：使用者使用兩台電腦，每次啟動前必須先 pull
-
 [State Check / 狀態檢查]
 Read my-learning-journal/profile.md from local machine
 讀取本機的 my-learning-journal/profile.md
@@ -100,6 +94,14 @@ Read my-learning-journal/profile.md from local machine
                            使用者選擇 → Agent 進入對應的 Step 4
                          → If user selects new → Go to Step 2
                            若選擇新項目 → 前往 Step 2
+
+[Sync Check / 同步檢查]
+- After user selects a project/course, cd into the corresponding repo folder
+  使用者選定項目後，cd 進入對應的 repo 資料夾
+- Run git pull to sync the latest changes
+  執行 git pull 更新到最新狀態
+- Important: user works across 2 computers, always pull before starting work
+  注意：使用者使用兩台電腦，每次啟動前必須先 pull
 ```
 
 ---
