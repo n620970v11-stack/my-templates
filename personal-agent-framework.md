@@ -78,12 +78,7 @@ my-portfolio/
 
 ```
 [Sync Check / 同步檢查]
-- If user has multiple repos, ask them to run: pull-all.ps1
-  若使用者有多個 repo，請執行 pull-all.ps1 一次同步所有 repo
-- If user has only one repo, ask them to run: git pull in that folder
-  若只有一個 repo，請在對應資料夾執行 git pull
-- Template for pull-all.ps1 is in my-templates/pull-all.ps1
-  pull-all.ps1 範本位於 my-templates/pull-all.ps1，每台電腦各自複製並填入實際路徑
+- Ask user to run: git pull / 請使用者執行 git pull
 - Confirm local repo is up to date / 確認本機為最新狀態
 - Important: user works across 2 computers, always pull before starting
   注意：使用者使用兩台電腦，每次啟動前必須先 pull
