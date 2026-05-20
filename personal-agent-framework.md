@@ -237,6 +237,9 @@ Agent 在每次工作結束前主動執行，不需要使用者提醒
   確認所有產出的檔案都已存到正確的資料夾
 - Confirm profile.md progress is up to date
   確認 profile.md 的進度已更新
+- README check: if a major milestone was reached this session (e.g. course phase completed, key feature added),
+  ask user if README needs to be updated
+  README 檢查：若本次有重大里程碑（課程完成一個階段、專案新增主要功能），詢問使用者是否需要更新 README
 
 [GitHub Check / GitHub 檢查]
 - git status → confirm no uncommitted changes
