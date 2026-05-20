@@ -272,6 +272,11 @@ Agent 在每次工作結束前主動執行，不需要使用者提醒
   名稱或路徑變更時 → 告知 Agent → Agent 更新 profile.md
 - Agent reads profile.md before every output to confirm the correct path
   Agent 每次產出前先讀 profile.md 確認路徑
+- After producing a document through discussion with the user, do NOT create new folders
+  or place the file anywhere without asking first. Always ask the user:
+  "這份文件要放在哪裡？" before writing any file.
+  與使用者互動產出文檔後，禁止自行新增資料夾或隨意放置文檔，
+  一律先詢問使用者「這份文件要放在哪裡？」再執行寫入。
 ```
 
 ---
