@@ -29,6 +29,10 @@ Your GitHub Account / 你的 GitHub 帳號
 │       ├── skill/
 │       ├── iterations/
 │       └── src/
+├── my-curriculum                     ← Curriculum reference (public) / 課綱參考資料（公開）
+│   ├── ai-agent-manager-curriculum.docx
+│   ├── agent_payment_roadmap.docx
+│   └── Web3_學習路線_章節架構.docx
 ├── my-learning-journal               ← Knowledge base (public) / 知識庫（公開）
 └── my-portfolio                      ← Portfolio (public) / 作品集（公開）
 ```
@@ -36,6 +40,19 @@ Your GitHub Account / 你的 GitHub 帳號
 ---
 
 ## Project Folder Structure / 專案資料夾結構
+
+### Curriculum / 課綱 (`my-curriculum/`)
+
+```
+my-curriculum/
+├── ai-agent-manager-curriculum.docx   ← AI Agent Manager 課綱
+├── agent_payment_roadmap.docx         ← Payment 學習路徑
+└── Web3_學習路線_章節架構.docx        ← Web3 學習路線
+```
+
+- Static reference materials for self-study courses / 自學課程的靜態參考資料
+- Add one file per course curriculum / 每個課程一份課綱檔
+- profile.md references each course by relative path / profile.md 以相對路徑引用每份課綱
 
 ### Knowledge Base / 知識庫 (`my-learning-journal/`)
 
